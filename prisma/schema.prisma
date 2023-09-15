@@ -1,0 +1,93 @@
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["clientExtensions", "postgresqlExtensions"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  extensions      = [pgcrypto]
+}
+
+model client_manager {
+  id               String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id          String    @db.Uuid
+  company_id       String    @db.Uuid
+  client_portfolio String    @db.VarChar(255)
+  start_date       DateTime  @db.Date
+  end_date         DateTime? @db.Date
+  created_at       DateTime  @default(now()) @db.Timestamp(6)
+  updated_at       DateTime  @default(now()) @db.Timestamp(6)
+  company          company   @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user             user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model company {
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  description      String?            @db.VarChar(255)
+  name             String             @db.VarChar(255)
+  created_at       DateTime           @default(now()) @db.Timestamp(6)
+  updated_at       DateTime           @default(now()) @db.Timestamp(6)
+  user_id          String             @db.Uuid
+  tenant_id        String             @db.VarChar(255)
+  client_manager   client_manager[]
+  user             user               @relation(fields: [user_id], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  customer         customer[]
+  customer_support customer_support[]
+  team_member      team_member[]
+}
+
+model customer {
+  id                 String   @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id            String   @db.Uuid
+  company_id         String   @db.Uuid
+  purchase_history   String   @db.VarChar(255)
+  last_purchase_date DateTime @db.Date
+  total_spent        Int
+  created_at         DateTime @default(now()) @db.Timestamp(6)
+  updated_at         DateTime @default(now()) @db.Timestamp(6)
+  company            company  @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user               user     @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model customer_support {
+  id            String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id       String    @db.Uuid
+  company_id    String    @db.Uuid
+  support_level String    @db.VarChar(255)
+  start_date    DateTime  @db.Date
+  end_date      DateTime? @db.Date
+  created_at    DateTime  @default(now()) @db.Timestamp(6)
+  updated_at    DateTime  @default(now()) @db.Timestamp(6)
+  company       company   @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user          user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model team_member {
+  id         String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  user_id    String    @db.Uuid
+  company_id String    @db.Uuid
+  position   String    @db.VarChar(255)
+  start_date DateTime  @db.Date
+  end_date   DateTime? @db.Date
+  created_at DateTime  @default(now()) @db.Timestamp(6)
+  updated_at DateTime  @default(now()) @db.Timestamp(6)
+  company    company   @relation(fields: [company_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  user       user      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+}
+
+model user {
+  id               String             @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  email            String             @unique @db.VarChar(255)
+  firstName        String?            @db.VarChar(255)
+  lastName         String?            @db.VarChar(255)
+  roq_user_id      String             @db.VarChar(255)
+  tenant_id        String             @db.VarChar(255)
+  created_at       DateTime           @default(now()) @db.Timestamp(6)
+  updated_at       DateTime           @default(now()) @db.Timestamp(6)
+  client_manager   client_manager[]
+  company          company[]
+  customer         customer[]
+  customer_support customer_support[]
+  team_member      team_member[]
+}

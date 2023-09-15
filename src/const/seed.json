@@ -1,0 +1,2572 @@
+[
+  {
+    "team_member": [
+      {
+        "id": "84b6893e-9364-44fc-b21a-13d1f4eb51ff",
+        "position": "Manager",
+        "start_date": "2023-09-14T14:21:10.118Z",
+        "end_date": "2023-09-14T12:26:22.538Z",
+        "created_at": "2023-09-14T14:08:11.396Z",
+        "updated_at": "2023-09-15T04:07:25.895Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26327549-cb13-4a63-9920-38ea8c6363b4",
+        "position": "Developer",
+        "start_date": "2023-09-15T09:36:06.568Z",
+        "end_date": "2023-09-14T14:10:01.708Z",
+        "created_at": "2023-09-15T11:00:47.069Z",
+        "updated_at": "2023-09-14T19:40:09.380Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c81d362-98e8-45f9-9cf6-c7b9d2b67b7d",
+        "position": "Designer",
+        "start_date": "2023-09-14T12:16:11.221Z",
+        "end_date": "2023-09-14T18:01:55.968Z",
+        "created_at": "2023-09-14T15:27:49.936Z",
+        "updated_at": "2023-09-15T10:38:15.551Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37557609-5ff1-42cc-8576-3f4279f81e2b",
+        "position": "Analyst",
+        "start_date": "2023-09-15T04:43:18.917Z",
+        "end_date": "2023-09-14T16:52:26.392Z",
+        "created_at": "2023-09-14T16:06:14.337Z",
+        "updated_at": "2023-09-15T01:16:22.318Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fbb06a6-2c32-4c41-a592-6ae98b4b2d11",
+        "position": "Engineer",
+        "start_date": "2023-09-14T21:17:47.923Z",
+        "end_date": "2023-09-14T19:00:34.694Z",
+        "created_at": "2023-09-14T12:20:45.738Z",
+        "updated_at": "2023-09-15T00:23:35.966Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "cdb27ce8-563a-477d-956c-3651675ad547",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T05:10:03.890Z",
+        "end_date": "2023-09-15T02:55:01.685Z",
+        "created_at": "2023-09-15T02:37:25.863Z",
+        "updated_at": "2023-09-14T15:31:56.046Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b00c0421-dc69-406a-b0d1-83e60459a7ee",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T00:09:27.562Z",
+        "end_date": "2023-09-15T04:47:09.908Z",
+        "created_at": "2023-09-15T10:55:18.741Z",
+        "updated_at": "2023-09-15T00:31:40.121Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd13032f-a73a-4b61-98f7-bba8f1a8fced",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T04:07:34.116Z",
+        "end_date": "2023-09-14T19:38:18.603Z",
+        "created_at": "2023-09-14T22:39:55.768Z",
+        "updated_at": "2023-09-14T17:09:20.958Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06a2a626-282c-487a-9ce6-237a951892c0",
+        "support_level": "Platinum",
+        "start_date": "2023-09-14T15:30:43.284Z",
+        "end_date": "2023-09-14T19:12:10.639Z",
+        "created_at": "2023-09-14T13:24:49.170Z",
+        "updated_at": "2023-09-15T07:59:04.554Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5196b09-4f59-4f6c-a71b-842ec79b885b",
+        "support_level": "Diamond",
+        "start_date": "2023-09-15T04:05:01.490Z",
+        "end_date": "2023-09-15T00:20:43.556Z",
+        "created_at": "2023-09-15T06:32:02.193Z",
+        "updated_at": "2023-09-14T13:32:18.147Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "605524f8-817d-4884-966e-63a681d8faab",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-14T12:26:11.402Z",
+        "total_spent": 17610,
+        "created_at": "2023-09-15T11:21:02.121Z",
+        "updated_at": "2023-09-14T13:19:04.613Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80967698-837d-4faa-8464-c40610ed57f3",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-15T09:39:40.154Z",
+        "total_spent": 34630,
+        "created_at": "2023-09-14T21:36:48.036Z",
+        "updated_at": "2023-09-14T13:35:07.370Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfe9853d-0412-4801-bd79-15c6591415b9",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-14T14:28:31.878Z",
+        "total_spent": 54872,
+        "created_at": "2023-09-14T19:07:54.615Z",
+        "updated_at": "2023-09-14T16:34:22.416Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b2feeb3-9fa7-429f-a841-75dad1fd24a3",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-14T23:34:27.946Z",
+        "total_spent": 41405,
+        "created_at": "2023-09-15T03:57:15.971Z",
+        "updated_at": "2023-09-14T21:55:48.713Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ad169da-78eb-4c31-bda3-d8f9112533f4",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-15T06:12:50.845Z",
+        "total_spent": 1106,
+        "created_at": "2023-09-14T21:41:02.130Z",
+        "updated_at": "2023-09-14T18:50:26.377Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "146515b7-3c25-466d-9fa3-8db4ca59ec09",
+        "client_portfolio": "Client X, Client Y",
+        "start_date": "2023-09-14T23:34:05.483Z",
+        "end_date": "2023-09-15T00:25:24.351Z",
+        "created_at": "2023-09-15T04:46:38.726Z",
+        "updated_at": "2023-09-14T17:04:17.949Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fefd85a2-62b3-4cf0-906f-ab7e8cc3b3dc",
+        "client_portfolio": "Client Z, Client W",
+        "start_date": "2023-09-15T10:32:54.903Z",
+        "end_date": "2023-09-15T01:44:11.118Z",
+        "created_at": "2023-09-14T22:20:18.954Z",
+        "updated_at": "2023-09-14T21:27:01.661Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834c56bb-26a8-4714-8856-d49ca91e56c6",
+        "client_portfolio": "Client V, Client U",
+        "start_date": "2023-09-14T18:02:02.905Z",
+        "end_date": "2023-09-15T10:43:16.704Z",
+        "created_at": "2023-09-14T14:00:54.935Z",
+        "updated_at": "2023-09-14T16:25:52.519Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48c2b6e6-bca7-4987-973b-4127c5780c99",
+        "client_portfolio": "Client T, Client S",
+        "start_date": "2023-09-15T09:41:07.455Z",
+        "end_date": "2023-09-15T04:54:26.507Z",
+        "created_at": "2023-09-15T08:56:33.392Z",
+        "updated_at": "2023-09-14T19:12:27.854Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ee40793-07a0-49e9-8638-822952c872c1",
+        "client_portfolio": "Client R, Client Q",
+        "start_date": "2023-09-15T06:44:47.879Z",
+        "end_date": "2023-09-14T13:00:32.175Z",
+        "created_at": "2023-09-14T22:06:42.688Z",
+        "updated_at": "2023-09-14T13:29:50.747Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c73ae401-de58-46c2-a58f-655bd34cd5c8",
+        "email": "Christine53@gmail.com",
+        "firstName": "Rosario",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/481.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c476bc78-0e9d-4676-8e6a-6a3b0618453e",
+        "email": "Laney.Feil-Friesen@hotmail.com",
+        "firstName": "Connie",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33942328",
+        "tenantId": null
+      },
+      {
+        "reference": "b04235c6-dbec-4e09-b491-261669c60f6c",
+        "email": "Lucienne.Donnelly@yahoo.com",
+        "firstName": "Brook",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26548933",
+        "tenantId": null
+      },
+      {
+        "reference": "c88a20bb-1a12-4487-9346-9e8627f4266c",
+        "email": "Remington_Herman79@gmail.com",
+        "firstName": "Braulio",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9557e69e-6f53-4201-968b-400ff8dc9cdd",
+        "email": "Guillermo28@gmail.com",
+        "firstName": "Marcos",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47815560",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "760de191-41c0-45ac-afb7-747ccb573a1e",
+        "position": "Software Engineer",
+        "start_date": "2023-09-15T03:48:48.421Z",
+        "end_date": "2023-09-15T09:16:41.300Z",
+        "created_at": "2023-09-14T21:26:05.168Z",
+        "updated_at": "2023-09-15T09:14:41.473Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94dbfff9-6eb6-4bdd-aa4c-5e15caddd043",
+        "position": "Marketing Specialist",
+        "start_date": "2023-09-14T21:17:20.618Z",
+        "end_date": "2023-09-14T13:19:52.049Z",
+        "created_at": "2023-09-15T06:27:29.477Z",
+        "updated_at": "2023-09-14T13:58:37.165Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6ca6d86-3566-4ae7-90b6-1cc6da7bec06",
+        "position": "Sales Manager",
+        "start_date": "2023-09-14T15:12:41.238Z",
+        "end_date": "2023-09-15T10:50:37.549Z",
+        "created_at": "2023-09-15T09:08:19.935Z",
+        "updated_at": "2023-09-15T05:18:04.573Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3c9fd45-95b3-4671-be33-85b547ca8290",
+        "position": "Product Designer",
+        "start_date": "2023-09-14T13:36:07.298Z",
+        "end_date": "2023-09-14T19:51:37.568Z",
+        "created_at": "2023-09-15T00:42:50.024Z",
+        "updated_at": "2023-09-15T05:35:13.549Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55ebd6a2-778e-43c1-98b8-6f2827444a8f",
+        "position": "Operations Analyst",
+        "start_date": "2023-09-15T07:04:32.703Z",
+        "end_date": "2023-09-14T20:58:37.925Z",
+        "created_at": "2023-09-15T05:01:20.186Z",
+        "updated_at": "2023-09-15T07:55:17.954Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "9d1ba051-1d92-4898-88b4-0a8f7d1d7050",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T08:36:50.794Z",
+        "end_date": "2023-09-14T17:51:39.211Z",
+        "created_at": "2023-09-14T18:41:24.816Z",
+        "updated_at": "2023-09-15T09:51:47.541Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e13807c-0124-45c2-914a-b79d5f609083",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T03:51:59.661Z",
+        "end_date": "2023-09-15T06:45:33.783Z",
+        "created_at": "2023-09-15T10:37:03.819Z",
+        "updated_at": "2023-09-15T10:38:13.771Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fe26c0c-7c78-48d7-8052-2d810469c8be",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T04:46:54.507Z",
+        "end_date": "2023-09-14T15:28:49.578Z",
+        "created_at": "2023-09-15T10:39:51.967Z",
+        "updated_at": "2023-09-15T01:49:02.930Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5015e47b-e3d3-44a7-b0d6-cce775a7053e",
+        "support_level": "Bronze",
+        "start_date": "2023-09-14T17:53:47.068Z",
+        "end_date": "2023-09-14T21:33:42.636Z",
+        "created_at": "2023-09-15T09:51:24.890Z",
+        "updated_at": "2023-09-14T23:37:03.977Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b9fcb35-1226-4f14-bd0e-ce86e0fa1d36",
+        "support_level": "Diamond",
+        "start_date": "2023-09-14T15:06:32.491Z",
+        "end_date": "2023-09-15T00:56:35.866Z",
+        "created_at": "2023-09-15T04:08:38.338Z",
+        "updated_at": "2023-09-15T01:32:23.365Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "5aa8a961-d35f-404d-94d8-45f0a812af2e",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-14T16:12:51.528Z",
+        "total_spent": 91856,
+        "created_at": "2023-09-14T17:02:41.782Z",
+        "updated_at": "2023-09-14T15:46:47.526Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a74053c-7d37-43f7-9e2d-3460e6712c3a",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-15T02:38:53.865Z",
+        "total_spent": 49331,
+        "created_at": "2023-09-15T05:49:43.138Z",
+        "updated_at": "2023-09-14T22:16:53.180Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec86a988-58f1-4557-b5c3-c6b540de789b",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-15T01:49:59.906Z",
+        "total_spent": 20713,
+        "created_at": "2023-09-15T05:15:10.092Z",
+        "updated_at": "2023-09-14T17:48:18.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3d98f87-9242-49a9-9d61-089576121fcf",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-14T21:07:47.290Z",
+        "total_spent": 37169,
+        "created_at": "2023-09-14T13:48:25.302Z",
+        "updated_at": "2023-09-15T03:01:55.854Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e254f1ff-f4f2-43ed-b6be-a5c83818bdc3",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-15T03:40:25.926Z",
+        "total_spent": 45209,
+        "created_at": "2023-09-14T18:14:03.749Z",
+        "updated_at": "2023-09-15T11:06:52.092Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "5c5578c2-fbd9-4e0f-8a81-6cdc50b29457",
+        "client_portfolio": "Client A, Client B",
+        "start_date": "2023-09-14T14:45:44.408Z",
+        "end_date": "2023-09-15T05:11:25.577Z",
+        "created_at": "2023-09-14T17:56:46.679Z",
+        "updated_at": "2023-09-15T03:32:37.813Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae280512-154e-41c8-bf76-37198f3f6d69",
+        "client_portfolio": "Client C, Client D",
+        "start_date": "2023-09-15T09:07:25.046Z",
+        "end_date": "2023-09-15T00:25:55.807Z",
+        "created_at": "2023-09-14T23:24:10.100Z",
+        "updated_at": "2023-09-14T23:08:11.437Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c3ccf49-258f-4852-a4d4-c05975dc3205",
+        "client_portfolio": "Client E, Client F",
+        "start_date": "2023-09-15T08:31:32.629Z",
+        "end_date": "2023-09-14T16:44:23.324Z",
+        "created_at": "2023-09-14T14:10:13.194Z",
+        "updated_at": "2023-09-15T00:55:24.068Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a32eda5d-5020-4b86-8e6a-f3dd615b3aa7",
+        "client_portfolio": "Client G, Client H",
+        "start_date": "2023-09-14T12:08:56.184Z",
+        "end_date": "2023-09-14T18:18:23.645Z",
+        "created_at": "2023-09-14T14:47:59.746Z",
+        "updated_at": "2023-09-15T05:51:56.730Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51e10869-dcda-4f48-9fb6-88d0b29901de",
+        "client_portfolio": "Client I, Client J",
+        "start_date": "2023-09-14T19:00:27.027Z",
+        "end_date": "2023-09-15T11:13:49.004Z",
+        "created_at": "2023-09-15T06:43:28.269Z",
+        "updated_at": "2023-09-14T21:46:14.491Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fcaeab73-2df7-4190-94e0-909cc693fd33",
+        "email": "Fleta.Ullrich@hotmail.com",
+        "firstName": "Hermina",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d62b4a9-ca95-43a3-9bba-e117d40a58ff",
+        "email": "Armando.Towne@gmail.com",
+        "firstName": "Mathew",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1213.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c83b50d-3bf9-49cd-807d-23f4f449a110",
+        "email": "Colton_Effertz23@hotmail.com",
+        "firstName": "Valentina",
+        "lastName": "Ondricka-Kling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a550d167-b6b6-4adc-930f-8cdfc9c52a27",
+        "email": "Ervin95@yahoo.com",
+        "firstName": "Orlando",
+        "lastName": "Breitenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/642.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5e40df19-3b67-418e-a741-b2716360c705",
+        "email": "Florine.Schmeler76@hotmail.com",
+        "firstName": "Carmelo",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16230951",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "4930bedf-bd1a-4350-932d-11476f97f2fd",
+        "position": "Manager",
+        "start_date": "2023-09-15T01:15:01.788Z",
+        "end_date": "2023-09-14T19:35:39.823Z",
+        "created_at": "2023-09-14T14:53:53.766Z",
+        "updated_at": "2023-09-15T10:02:10.137Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2b49a7f-f99b-433b-ba4d-ce27876d50e2",
+        "position": "Developer",
+        "start_date": "2023-09-14T13:02:49.865Z",
+        "end_date": "2023-09-15T05:38:19.546Z",
+        "created_at": "2023-09-15T05:11:18.641Z",
+        "updated_at": "2023-09-14T20:43:41.977Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b1a60a6-fd94-49be-a511-48bd1cdcc115",
+        "position": "Designer",
+        "start_date": "2023-09-14T13:30:29.502Z",
+        "end_date": "2023-09-15T06:50:50.909Z",
+        "created_at": "2023-09-15T01:23:25.323Z",
+        "updated_at": "2023-09-15T03:49:47.933Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8198e1e4-8461-41ef-b45d-55457e7f7f28",
+        "position": "Analyst",
+        "start_date": "2023-09-14T14:06:46.272Z",
+        "end_date": "2023-09-14T16:33:13.255Z",
+        "created_at": "2023-09-15T00:21:25.516Z",
+        "updated_at": "2023-09-14T11:55:34.403Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a35dccc-45a8-4076-90ca-55f79346ad88",
+        "position": "Coordinator",
+        "start_date": "2023-09-15T09:39:57.554Z",
+        "end_date": "2023-09-14T17:40:51.619Z",
+        "created_at": "2023-09-15T07:54:55.790Z",
+        "updated_at": "2023-09-14T15:10:04.078Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "12e993f7-bb49-43b0-9cce-37f3023b69fd",
+        "support_level": "Gold",
+        "start_date": "2023-09-14T20:28:04.585Z",
+        "end_date": "2023-09-15T06:28:11.119Z",
+        "created_at": "2023-09-15T03:22:10.876Z",
+        "updated_at": "2023-09-15T03:14:52.044Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d34e59f7-c7a0-4fad-9ffe-9ee2de0666c4",
+        "support_level": "Silver",
+        "start_date": "2023-09-14T20:08:52.999Z",
+        "end_date": "2023-09-14T20:32:46.605Z",
+        "created_at": "2023-09-15T07:00:21.207Z",
+        "updated_at": "2023-09-15T09:11:12.204Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c7ac6d0-cca0-4122-80a0-346a03a1a3e3",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T03:43:10.503Z",
+        "end_date": "2023-09-15T03:12:40.253Z",
+        "created_at": "2023-09-14T13:25:55.980Z",
+        "updated_at": "2023-09-15T00:16:44.814Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2d80c2d-2b4e-48af-9e23-4298cebd6c87",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T09:34:01.580Z",
+        "end_date": "2023-09-14T20:00:25.756Z",
+        "created_at": "2023-09-14T16:34:31.729Z",
+        "updated_at": "2023-09-15T04:49:56.408Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35afdd67-0dce-4914-b181-0d62fd6b383c",
+        "support_level": "Diamond",
+        "start_date": "2023-09-15T09:21:10.764Z",
+        "end_date": "2023-09-14T19:13:00.704Z",
+        "created_at": "2023-09-15T00:35:59.304Z",
+        "updated_at": "2023-09-15T07:18:07.649Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f5a8bddd-980e-490a-85b0-b599d4bc2f15",
+        "purchase_history": "Product A",
+        "last_purchase_date": "2023-09-15T10:26:04.788Z",
+        "total_spent": 59865,
+        "created_at": "2023-09-15T06:04:24.500Z",
+        "updated_at": "2023-09-15T10:56:41.062Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "794c6e27-f991-45de-9a26-d86165ad7405",
+        "purchase_history": "Product B",
+        "last_purchase_date": "2023-09-14T20:22:47.004Z",
+        "total_spent": 83579,
+        "created_at": "2023-09-15T03:32:14.841Z",
+        "updated_at": "2023-09-14T14:52:28.325Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9391426e-8dae-4b78-989b-35067ae7261d",
+        "purchase_history": "Product C",
+        "last_purchase_date": "2023-09-14T17:50:51.091Z",
+        "total_spent": 54202,
+        "created_at": "2023-09-14T21:47:55.232Z",
+        "updated_at": "2023-09-15T10:15:35.907Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5167c8bb-0a3c-4442-a012-8222406591b9",
+        "purchase_history": "Product D",
+        "last_purchase_date": "2023-09-15T01:45:30.998Z",
+        "total_spent": 84428,
+        "created_at": "2023-09-14T13:08:09.919Z",
+        "updated_at": "2023-09-15T10:14:13.208Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d17dd048-5747-4625-9f2a-66fac411d139",
+        "purchase_history": "Product E",
+        "last_purchase_date": "2023-09-15T04:49:31.394Z",
+        "total_spent": 22120,
+        "created_at": "2023-09-14T19:28:43.888Z",
+        "updated_at": "2023-09-15T10:22:28.255Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "d4e07273-9b70-441c-b389-b74965c4d354",
+        "client_portfolio": "Client X",
+        "start_date": "2023-09-15T01:08:08.111Z",
+        "end_date": "2023-09-15T00:54:25.410Z",
+        "created_at": "2023-09-15T08:37:18.586Z",
+        "updated_at": "2023-09-15T09:54:12.168Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84262f45-dae0-42f7-916a-e48e96b83f58",
+        "client_portfolio": "Client Y",
+        "start_date": "2023-09-15T01:54:08.774Z",
+        "end_date": "2023-09-14T14:18:11.611Z",
+        "created_at": "2023-09-14T20:00:22.690Z",
+        "updated_at": "2023-09-14T20:32:59.812Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "402d98d7-07bf-418b-a3ce-5347aa9cbcf1",
+        "client_portfolio": "Client Z",
+        "start_date": "2023-09-15T11:17:23.766Z",
+        "end_date": "2023-09-14T17:25:17.577Z",
+        "created_at": "2023-09-15T05:28:43.998Z",
+        "updated_at": "2023-09-15T06:40:41.924Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c44705bf-f5f2-4045-b29e-0af145504216",
+        "client_portfolio": "Client A",
+        "start_date": "2023-09-14T15:24:22.071Z",
+        "end_date": "2023-09-14T23:32:40.323Z",
+        "created_at": "2023-09-14T13:00:22.970Z",
+        "updated_at": "2023-09-15T09:17:22.526Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35eb1340-dd52-45d3-bfdb-163e4e99f9b9",
+        "client_portfolio": "Client B",
+        "start_date": "2023-09-14T17:44:28.218Z",
+        "end_date": "2023-09-14T17:40:45.032Z",
+        "created_at": "2023-09-15T03:39:23.175Z",
+        "updated_at": "2023-09-15T00:42:33.861Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4257176f-809f-4081-8e80-55740c76c086",
+        "email": "Rosalind1@gmail.com",
+        "firstName": "Junior",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1090.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f746a8a-43fb-4f66-ade0-cfcfd3fee468",
+        "email": "Rusty.Goyette@hotmail.com",
+        "firstName": "Betty",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ca605a6c-33ea-4bcc-a1ac-aaa72967307b",
+        "email": "Gabrielle_Armstrong@hotmail.com",
+        "firstName": "Florine",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/920.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f012274a-d190-4135-8f61-a74573b4aed8",
+        "email": "Eddie.Wolff@hotmail.com",
+        "firstName": "Diego",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3071900",
+        "tenantId": null
+      },
+      {
+        "reference": "0626d2cf-e492-4753-9502-0787e3d091c1",
+        "email": "Deja_Denesik@gmail.com",
+        "firstName": "Ricky",
+        "lastName": "Mosciski-Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/354.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "29b40c1a-b276-4c52-be13-0a2c7c08b0d4",
+        "position": "Manager",
+        "start_date": "2023-09-15T07:48:55.161Z",
+        "end_date": "2023-09-15T00:40:59.793Z",
+        "created_at": "2023-09-15T11:08:48.560Z",
+        "updated_at": "2023-09-15T04:18:48.080Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80ec6571-083f-4ccc-91cc-4d0c2185824e",
+        "position": "Developer",
+        "start_date": "2023-09-14T13:45:24.898Z",
+        "end_date": "2023-09-15T07:31:57.572Z",
+        "created_at": "2023-09-15T06:29:37.750Z",
+        "updated_at": "2023-09-15T04:18:49.114Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beedc778-8728-4549-8119-d7699bab8b59",
+        "position": "Designer",
+        "start_date": "2023-09-14T15:44:52.646Z",
+        "end_date": "2023-09-14T13:20:32.215Z",
+        "created_at": "2023-09-15T02:35:29.666Z",
+        "updated_at": "2023-09-15T08:58:27.421Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40745cff-f1fe-45e3-aac3-775ca32c6b3f",
+        "position": "Analyst",
+        "start_date": "2023-09-14T22:04:28.777Z",
+        "end_date": "2023-09-14T16:52:31.352Z",
+        "created_at": "2023-09-14T21:44:54.118Z",
+        "updated_at": "2023-09-14T16:16:32.040Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "765b9557-630d-4e03-999c-a47a499532ff",
+        "position": "Engineer",
+        "start_date": "2023-09-15T11:03:15.630Z",
+        "end_date": "2023-09-15T10:57:34.077Z",
+        "created_at": "2023-09-14T20:40:23.909Z",
+        "updated_at": "2023-09-15T00:41:07.026Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "679d5dd2-dace-4337-8ee6-912dbddaa412",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T01:46:18.109Z",
+        "end_date": "2023-09-15T02:29:34.058Z",
+        "created_at": "2023-09-14T18:17:21.680Z",
+        "updated_at": "2023-09-14T14:24:04.763Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b57783e-85ad-4ceb-8cfa-b9e37a368c36",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T07:21:37.176Z",
+        "end_date": "2023-09-14T17:27:40.561Z",
+        "created_at": "2023-09-15T02:21:51.301Z",
+        "updated_at": "2023-09-14T15:39:51.647Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb7897a5-9c0a-4174-9bc4-5f866d1d0201",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T00:37:54.777Z",
+        "end_date": "2023-09-15T09:28:26.653Z",
+        "created_at": "2023-09-15T01:53:34.496Z",
+        "updated_at": "2023-09-15T07:48:40.796Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea9aaf67-f832-4b7e-8e80-da6b2eb05a92",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T07:32:51.171Z",
+        "end_date": "2023-09-15T04:47:23.860Z",
+        "created_at": "2023-09-14T22:25:02.995Z",
+        "updated_at": "2023-09-15T03:59:05.232Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07d2c204-e3ff-4185-bc03-f54525151933",
+        "support_level": "Diamond",
+        "start_date": "2023-09-14T17:37:59.183Z",
+        "end_date": "2023-09-15T08:35:50.550Z",
+        "created_at": "2023-09-14T18:43:49.814Z",
+        "updated_at": "2023-09-14T15:10:32.524Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "6f53bcaa-732a-482f-8c94-a2075d6972b6",
+        "purchase_history": "Product A",
+        "last_purchase_date": "2023-09-14T13:04:43.148Z",
+        "total_spent": 21931,
+        "created_at": "2023-09-15T00:44:51.071Z",
+        "updated_at": "2023-09-15T07:32:38.636Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7efe6461-a7e4-43c7-adb2-d4231b936c4d",
+        "purchase_history": "Product B",
+        "last_purchase_date": "2023-09-14T18:43:09.009Z",
+        "total_spent": 4212,
+        "created_at": "2023-09-14T17:31:15.621Z",
+        "updated_at": "2023-09-15T06:44:26.647Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85524c23-e34c-4ec3-a53b-0d5cf6817b5c",
+        "purchase_history": "Product C",
+        "last_purchase_date": "2023-09-14T12:51:07.631Z",
+        "total_spent": 64604,
+        "created_at": "2023-09-14T12:32:07.089Z",
+        "updated_at": "2023-09-14T23:31:36.706Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00c9f8d8-7591-484c-8ee1-f02c7b23a391",
+        "purchase_history": "Product D",
+        "last_purchase_date": "2023-09-14T16:09:23.128Z",
+        "total_spent": 37813,
+        "created_at": "2023-09-14T18:08:40.745Z",
+        "updated_at": "2023-09-14T15:47:54.209Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3760529-74d7-42c5-9c4a-c3944ecb29e9",
+        "purchase_history": "Product E",
+        "last_purchase_date": "2023-09-15T11:40:26.067Z",
+        "total_spent": 52052,
+        "created_at": "2023-09-15T00:00:33.967Z",
+        "updated_at": "2023-09-14T20:58:17.557Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "5017a812-f62a-400c-8d98-93c02e19a1e4",
+        "client_portfolio": "Client A",
+        "start_date": "2023-09-15T10:42:45.204Z",
+        "end_date": "2023-09-15T03:07:04.430Z",
+        "created_at": "2023-09-15T07:12:29.741Z",
+        "updated_at": "2023-09-14T16:12:30.933Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6c9994-f5bf-44bc-aff1-9de34e528316",
+        "client_portfolio": "Client B",
+        "start_date": "2023-09-14T19:23:33.743Z",
+        "end_date": "2023-09-14T22:57:03.562Z",
+        "created_at": "2023-09-15T01:15:31.449Z",
+        "updated_at": "2023-09-15T00:53:40.915Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74fc291e-eefc-476c-80ca-a285e5449f61",
+        "client_portfolio": "Client C",
+        "start_date": "2023-09-14T23:15:05.205Z",
+        "end_date": "2023-09-15T01:30:33.600Z",
+        "created_at": "2023-09-15T07:37:24.331Z",
+        "updated_at": "2023-09-15T08:15:53.585Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc181bf5-b3d9-4e25-8fe2-5589d3257653",
+        "client_portfolio": "Client D",
+        "start_date": "2023-09-14T14:06:13.860Z",
+        "end_date": "2023-09-15T10:15:00.515Z",
+        "created_at": "2023-09-14T19:50:47.600Z",
+        "updated_at": "2023-09-14T23:26:54.209Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72ff9c22-e200-430c-b1e3-49e78d9efe65",
+        "client_portfolio": "Client E",
+        "start_date": "2023-09-14T22:08:05.690Z",
+        "end_date": "2023-09-14T17:52:49.450Z",
+        "created_at": "2023-09-15T08:37:24.438Z",
+        "updated_at": "2023-09-15T09:18:43.993Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "783e733b-5ca1-4646-bbf8-2a9386b24e24",
+        "email": "Norma_OConner93@yahoo.com",
+        "firstName": "Eudora",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/477.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bbdd38eb-a31b-4f34-bd57-b04590f5b9fe",
+        "email": "Trevion_Casper@gmail.com",
+        "firstName": "Melissa",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/843.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12c8c197-5039-4c2f-93e9-7527508cbde6",
+        "email": "Scarlett.Fritsch@yahoo.com",
+        "firstName": "Wayne",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10915745",
+        "tenantId": null
+      },
+      {
+        "reference": "0c985a2e-4f1d-4085-8228-375db8ffbfb2",
+        "email": "Oscar.Gusikowski62@gmail.com",
+        "firstName": "Mitchel",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69938709",
+        "tenantId": null
+      },
+      {
+        "reference": "a4a29181-4c49-4273-93e8-5acf923d2091",
+        "email": "Mario.Becker26@gmail.com",
+        "firstName": "Kailyn",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/531.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "dc6bee6a-d7d0-4ab2-a5ac-135f5d516110",
+        "position": "Manager",
+        "start_date": "2023-09-14T13:34:34.227Z",
+        "end_date": "2023-09-14T23:38:52.554Z",
+        "created_at": "2023-09-14T19:48:40.923Z",
+        "updated_at": "2023-09-14T17:23:36.041Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a93c5db0-b90b-42ec-9622-588cdc935861",
+        "position": "Developer",
+        "start_date": "2023-09-14T23:20:23.053Z",
+        "end_date": "2023-09-15T01:38:45.330Z",
+        "created_at": "2023-09-14T13:16:08.896Z",
+        "updated_at": "2023-09-15T02:05:34.557Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d931ab68-1ceb-4b8f-a2af-21aca0de40c8",
+        "position": "Designer",
+        "start_date": "2023-09-15T08:08:12.977Z",
+        "end_date": "2023-09-14T15:22:26.172Z",
+        "created_at": "2023-09-15T02:05:02.392Z",
+        "updated_at": "2023-09-15T02:55:14.781Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc969161-6793-4a3a-8131-f98371f30f19",
+        "position": "Analyst",
+        "start_date": "2023-09-15T04:29:05.334Z",
+        "end_date": "2023-09-15T01:55:18.796Z",
+        "created_at": "2023-09-15T11:01:33.837Z",
+        "updated_at": "2023-09-14T20:10:31.745Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67c92651-6709-460b-a951-9c7c63aab4fd",
+        "position": "Engineer",
+        "start_date": "2023-09-15T00:02:47.205Z",
+        "end_date": "2023-09-14T21:18:04.003Z",
+        "created_at": "2023-09-14T18:33:54.978Z",
+        "updated_at": "2023-09-14T16:05:21.667Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "9b85cdd2-9beb-4063-9e10-3b2765d67dec",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T00:24:42.141Z",
+        "end_date": "2023-09-14T21:43:59.682Z",
+        "created_at": "2023-09-15T03:56:41.046Z",
+        "updated_at": "2023-09-15T07:05:44.261Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9abb4bec-b1b2-49ab-b41d-b1e2b4560cb6",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T00:11:42.526Z",
+        "end_date": "2023-09-15T02:50:00.038Z",
+        "created_at": "2023-09-15T10:11:09.410Z",
+        "updated_at": "2023-09-15T02:59:17.675Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ab64073-7f20-400b-90ff-2f72029b38b4",
+        "support_level": "Bronze",
+        "start_date": "2023-09-14T14:48:31.156Z",
+        "end_date": "2023-09-14T13:56:24.967Z",
+        "created_at": "2023-09-15T05:59:23.289Z",
+        "updated_at": "2023-09-15T00:20:06.205Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d90d3a9d-c09b-4d8d-b6c0-986ccfccb958",
+        "support_level": "Platinum",
+        "start_date": "2023-09-14T19:27:58.021Z",
+        "end_date": "2023-09-15T10:46:44.067Z",
+        "created_at": "2023-09-14T19:41:43.064Z",
+        "updated_at": "2023-09-14T17:48:47.180Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1d8e102-8739-4d5d-8277-2d2d6730f18f",
+        "support_level": "Diamond",
+        "start_date": "2023-09-14T14:46:12.800Z",
+        "end_date": "2023-09-15T07:50:05.676Z",
+        "created_at": "2023-09-14T17:05:54.659Z",
+        "updated_at": "2023-09-15T10:11:53.794Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "ea6491bf-3bdd-4d66-9b4e-bade6c1bbf88",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-15T03:45:04.271Z",
+        "total_spent": 54898,
+        "created_at": "2023-09-14T12:29:47.244Z",
+        "updated_at": "2023-09-14T20:22:47.368Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ef5964e-5819-4874-a1c9-846733d40c2c",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-14T17:40:28.855Z",
+        "total_spent": 41928,
+        "created_at": "2023-09-14T21:32:46.752Z",
+        "updated_at": "2023-09-15T03:21:47.707Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6c9f3fb-b091-43f6-b2ff-33d5f5939cd6",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-14T22:32:02.072Z",
+        "total_spent": 10201,
+        "created_at": "2023-09-14T16:30:06.927Z",
+        "updated_at": "2023-09-14T18:02:26.160Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5bbc9fc-3c53-43c0-95bb-e59ecfdf95fe",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-14T13:48:34.915Z",
+        "total_spent": 93885,
+        "created_at": "2023-09-15T04:02:05.239Z",
+        "updated_at": "2023-09-15T08:57:46.737Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e40db0ca-cb7f-4c49-b2eb-bdb34c40f40d",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-14T20:34:55.494Z",
+        "total_spent": 81281,
+        "created_at": "2023-09-14T12:01:07.894Z",
+        "updated_at": "2023-09-15T01:38:45.238Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "5d5e0c59-295b-4cf6-aece-632cd18794c4",
+        "client_portfolio": "Client A, Client B",
+        "start_date": "2023-09-15T10:35:12.891Z",
+        "end_date": "2023-09-14T16:26:31.968Z",
+        "created_at": "2023-09-15T11:05:44.492Z",
+        "updated_at": "2023-09-14T18:16:22.782Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca591d41-0d4d-4786-9467-4e5658d48eb0",
+        "client_portfolio": "Client C, Client D",
+        "start_date": "2023-09-14T15:38:43.766Z",
+        "end_date": "2023-09-15T04:34:20.564Z",
+        "created_at": "2023-09-14T16:45:32.598Z",
+        "updated_at": "2023-09-15T07:54:19.462Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9222db1d-d849-43ac-9b47-fee4b7910e43",
+        "client_portfolio": "Client E, Client F",
+        "start_date": "2023-09-15T08:00:43.339Z",
+        "end_date": "2023-09-14T13:58:06.599Z",
+        "created_at": "2023-09-14T22:01:25.150Z",
+        "updated_at": "2023-09-14T15:38:41.981Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5c6a22e-3d87-4383-9996-55aba929bc15",
+        "client_portfolio": "Client G, Client H",
+        "start_date": "2023-09-14T21:04:13.459Z",
+        "end_date": "2023-09-15T05:07:49.894Z",
+        "created_at": "2023-09-14T15:02:53.313Z",
+        "updated_at": "2023-09-15T05:22:12.255Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e92e2cc-dd5c-45cf-ba34-477e0aa5f56f",
+        "client_portfolio": "Client I, Client J",
+        "start_date": "2023-09-15T02:45:26.758Z",
+        "end_date": "2023-09-14T16:11:33.419Z",
+        "created_at": "2023-09-14T12:36:08.608Z",
+        "updated_at": "2023-09-15T02:49:14.853Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b277f61e-1872-4dc1-9437-c259e77c7757",
+        "email": "Donnell_Christiansen0@yahoo.com",
+        "firstName": "Antwon",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/736.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20fd50d7-b0f3-4d0c-ad20-423a6f609686",
+        "email": "Kobe22@hotmail.com",
+        "firstName": "Aidan",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11932049",
+        "tenantId": null
+      },
+      {
+        "reference": "82d13799-2bb8-4057-853d-0b969c9b094f",
+        "email": "Ruben.Deckow36@yahoo.com",
+        "firstName": "Celestino",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3145259",
+        "tenantId": null
+      },
+      {
+        "reference": "7af04fc3-f37c-4035-ae73-b61e449715c8",
+        "email": "Lillian15@gmail.com",
+        "firstName": "Brad",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1a29358-f2f8-4afe-9638-d1d1f8316167",
+        "email": "Flavie.Conroy@yahoo.com",
+        "firstName": "Samson",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26398772",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "f6ca62b8-b9cf-401d-b490-d3a915217360",
+        "position": "Manager",
+        "start_date": "2023-09-15T08:43:11.764Z",
+        "end_date": "2023-09-15T01:57:01.545Z",
+        "created_at": "2023-09-15T07:39:07.960Z",
+        "updated_at": "2023-09-15T01:08:56.811Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "abdb4415-66fd-4395-8009-1e47c6e75ca8",
+        "position": "Developer",
+        "start_date": "2023-09-15T05:21:03.508Z",
+        "end_date": "2023-09-14T13:04:27.894Z",
+        "created_at": "2023-09-14T15:49:04.221Z",
+        "updated_at": "2023-09-15T07:57:48.706Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3588281-acfc-4164-a27b-2489c6901309",
+        "position": "Designer",
+        "start_date": "2023-09-15T03:13:41.162Z",
+        "end_date": "2023-09-14T23:46:39.892Z",
+        "created_at": "2023-09-15T04:03:51.548Z",
+        "updated_at": "2023-09-14T14:22:33.162Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e808abb-e205-41d3-8cac-8afba6a02bda",
+        "position": "Analyst",
+        "start_date": "2023-09-15T03:10:32.419Z",
+        "end_date": "2023-09-14T12:29:16.462Z",
+        "created_at": "2023-09-14T14:38:11.132Z",
+        "updated_at": "2023-09-15T09:40:09.729Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad96dc69-da11-4ba0-b9e9-236c1828df2e",
+        "position": "Sales Executive",
+        "start_date": "2023-09-14T23:01:34.208Z",
+        "end_date": "2023-09-14T21:11:00.984Z",
+        "created_at": "2023-09-14T12:52:00.094Z",
+        "updated_at": "2023-09-15T05:30:09.473Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "34fe5eee-d3aa-4bb9-8ae5-3053a8e5efb4",
+        "support_level": "Gold",
+        "start_date": "2023-09-14T16:26:27.598Z",
+        "end_date": "2023-09-14T21:37:30.919Z",
+        "created_at": "2023-09-14T15:00:54.413Z",
+        "updated_at": "2023-09-15T01:08:26.604Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93f2822f-6f07-45db-9a1d-bac0f230c9b6",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T01:30:17.527Z",
+        "end_date": "2023-09-14T20:11:56.272Z",
+        "created_at": "2023-09-14T21:44:26.724Z",
+        "updated_at": "2023-09-15T00:06:54.643Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f15a9a-2be4-45eb-84a1-a5fbd565a831",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T06:10:36.070Z",
+        "end_date": "2023-09-15T02:57:42.911Z",
+        "created_at": "2023-09-15T05:10:27.561Z",
+        "updated_at": "2023-09-14T23:03:00.969Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea28bea6-b87d-419a-a0a5-2a1531622b4c",
+        "support_level": "Platinum",
+        "start_date": "2023-09-14T15:13:53.401Z",
+        "end_date": "2023-09-14T15:33:12.872Z",
+        "created_at": "2023-09-15T01:07:10.176Z",
+        "updated_at": "2023-09-14T18:27:21.825Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34021da4-f6e7-40d1-a3d1-81d7a9f4c01a",
+        "support_level": "Standard",
+        "start_date": "2023-09-15T08:01:50.729Z",
+        "end_date": "2023-09-15T07:57:28.823Z",
+        "created_at": "2023-09-14T14:30:23.494Z",
+        "updated_at": "2023-09-14T17:21:40.371Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "dac3a277-503f-41d4-be57-f48fc711fc3f",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-14T23:27:52.321Z",
+        "total_spent": 78399,
+        "created_at": "2023-09-14T15:59:50.650Z",
+        "updated_at": "2023-09-15T05:27:25.204Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3b71c0a-38e6-4d65-ac35-52776139babe",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-14T15:21:39.166Z",
+        "total_spent": 85159,
+        "created_at": "2023-09-14T12:44:59.842Z",
+        "updated_at": "2023-09-15T00:08:12.539Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280d1a7e-57be-47c9-be18-7e0c54cd303c",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-14T13:04:41.862Z",
+        "total_spent": 24372,
+        "created_at": "2023-09-15T08:06:38.575Z",
+        "updated_at": "2023-09-15T03:07:18.065Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10446035-6eab-41cd-95c3-cb39515ea569",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-14T21:36:48.425Z",
+        "total_spent": 47854,
+        "created_at": "2023-09-15T03:38:24.573Z",
+        "updated_at": "2023-09-14T20:20:34.965Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1200842c-ff05-40b1-acad-d29a3e43072c",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-15T07:16:06.612Z",
+        "total_spent": 17085,
+        "created_at": "2023-09-14T23:03:12.745Z",
+        "updated_at": "2023-09-15T01:10:05.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "1f7751c2-9ac5-4192-b62c-f955fe04857b",
+        "client_portfolio": "Client A, Client B",
+        "start_date": "2023-09-14T14:37:22.017Z",
+        "end_date": "2023-09-15T11:10:21.853Z",
+        "created_at": "2023-09-15T07:59:38.027Z",
+        "updated_at": "2023-09-15T03:52:46.163Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f48eb51d-78a4-453c-ae23-4051c2f90ced",
+        "client_portfolio": "Client C, Client D",
+        "start_date": "2023-09-15T07:09:19.849Z",
+        "end_date": "2023-09-15T01:17:58.277Z",
+        "created_at": "2023-09-15T00:22:06.382Z",
+        "updated_at": "2023-09-15T03:47:06.104Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7ace565-a443-48da-973a-edc707fa2fe4",
+        "client_portfolio": "Client E, Client F",
+        "start_date": "2023-09-15T07:30:35.171Z",
+        "end_date": "2023-09-14T22:15:23.909Z",
+        "created_at": "2023-09-14T23:30:10.417Z",
+        "updated_at": "2023-09-15T03:10:20.323Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c0c1406-1e65-4656-83dd-87e0a29cdb0f",
+        "client_portfolio": "Client G, Client H",
+        "start_date": "2023-09-15T08:31:50.202Z",
+        "end_date": "2023-09-14T13:53:54.539Z",
+        "created_at": "2023-09-14T23:02:35.394Z",
+        "updated_at": "2023-09-15T00:30:04.488Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa80ad9e-edc7-4646-b182-6452c58648ba",
+        "client_portfolio": "Client I, Client J",
+        "start_date": "2023-09-14T13:19:28.442Z",
+        "end_date": "2023-09-14T21:43:58.830Z",
+        "created_at": "2023-09-14T14:37:58.237Z",
+        "updated_at": "2023-09-15T04:54:21.108Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6c9045e-968c-45d0-ae05-4168b76aae6e",
+        "email": "Theodore59@hotmail.com",
+        "firstName": "Rodger",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/823.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "383b9a1d-f067-41fc-ade6-2ca8980d696b",
+        "email": "Velva.Wolf20@hotmail.com",
+        "firstName": "Otto",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/503.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29ac9a5f-9c96-4baf-83d5-bdf6fcabad14",
+        "email": "Elinore43@gmail.com",
+        "firstName": "Bradford",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/828.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0695531a-71b2-4ec0-a0e1-5af4033515fe",
+        "email": "Estevan_Klocko70@gmail.com",
+        "firstName": "Willow",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22049082",
+        "tenantId": null
+      },
+      {
+        "reference": "a4954593-c5d0-4b2e-9f27-709b8533f17e",
+        "email": "Hobart.Kovacek@hotmail.com",
+        "firstName": "Verdie",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/463.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "2cff1595-911a-469b-9041-6fc65ba6fffe",
+        "position": "Software Engineer",
+        "start_date": "2023-09-15T09:57:48.542Z",
+        "end_date": "2023-09-15T06:37:39.012Z",
+        "created_at": "2023-09-14T21:26:50.230Z",
+        "updated_at": "2023-09-14T16:34:07.060Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb9bcb5-09c7-40d5-bb33-3e8cac077bea",
+        "position": "Marketing Specialist",
+        "start_date": "2023-09-15T11:07:44.822Z",
+        "end_date": "2023-09-14T21:27:34.038Z",
+        "created_at": "2023-09-15T11:22:25.830Z",
+        "updated_at": "2023-09-14T16:51:17.616Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4e7d896-08c8-499e-9890-a9fe773b412b",
+        "position": "Operations Manager",
+        "start_date": "2023-09-14T23:20:47.435Z",
+        "end_date": "2023-09-15T06:09:32.135Z",
+        "created_at": "2023-09-15T11:17:47.449Z",
+        "updated_at": "2023-09-15T11:24:08.448Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b63dcce-e45c-4a31-b025-000e169130e4",
+        "position": "Sales Representative",
+        "start_date": "2023-09-14T16:12:59.707Z",
+        "end_date": "2023-09-15T04:41:32.892Z",
+        "created_at": "2023-09-14T20:53:09.321Z",
+        "updated_at": "2023-09-15T11:19:59.169Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bda1251e-423c-4370-98af-6de171310e2c",
+        "position": "Product Designer",
+        "start_date": "2023-09-15T07:35:33.545Z",
+        "end_date": "2023-09-14T19:47:13.089Z",
+        "created_at": "2023-09-15T00:37:21.445Z",
+        "updated_at": "2023-09-14T21:35:59.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "3f6d2e77-b78c-4f05-a3ec-4d6bf9b6c691",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T01:01:20.586Z",
+        "end_date": "2023-09-14T12:52:44.403Z",
+        "created_at": "2023-09-14T19:16:32.123Z",
+        "updated_at": "2023-09-15T00:36:34.869Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24716ace-cf4d-4b3d-b832-68dda47f8e10",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T04:18:31.487Z",
+        "end_date": "2023-09-14T19:56:03.454Z",
+        "created_at": "2023-09-14T13:56:08.383Z",
+        "updated_at": "2023-09-14T16:46:46.673Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "119ccf10-57ec-49a6-85f2-501d389aa2a0",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T05:26:27.792Z",
+        "end_date": "2023-09-14T17:40:37.844Z",
+        "created_at": "2023-09-14T17:58:59.246Z",
+        "updated_at": "2023-09-15T08:24:48.959Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6035df2-d698-4a71-9f5a-7f116954198e",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T07:07:35.348Z",
+        "end_date": "2023-09-15T02:36:20.587Z",
+        "created_at": "2023-09-14T15:55:11.161Z",
+        "updated_at": "2023-09-14T20:19:34.202Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "677e6578-01fe-4a5d-833c-2feb7ef23035",
+        "support_level": "Standard",
+        "start_date": "2023-09-14T22:15:53.909Z",
+        "end_date": "2023-09-14T15:15:34.651Z",
+        "created_at": "2023-09-14T23:53:34.648Z",
+        "updated_at": "2023-09-15T10:08:41.195Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "835201bf-7e1e-4fa0-9bc1-a0bb8a78da45",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-14T19:51:22.583Z",
+        "total_spent": 61993,
+        "created_at": "2023-09-15T09:40:26.983Z",
+        "updated_at": "2023-09-14T15:48:16.942Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b267a8fd-6c09-421b-b22e-bd5d90fb80bf",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-14T22:08:17.165Z",
+        "total_spent": 7512,
+        "created_at": "2023-09-14T23:59:21.078Z",
+        "updated_at": "2023-09-15T08:45:30.496Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03d1d189-a65f-49f4-9fe7-769d0fa64a9c",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-14T21:31:05.914Z",
+        "total_spent": 33374,
+        "created_at": "2023-09-14T16:33:53.024Z",
+        "updated_at": "2023-09-14T22:25:36.343Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84fe73ec-d7a3-46f1-9edb-c0ae01c6a778",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-15T00:24:09.054Z",
+        "total_spent": 20540,
+        "created_at": "2023-09-15T00:38:29.526Z",
+        "updated_at": "2023-09-14T17:39:37.415Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa62d17d-fb3e-42f9-9d32-705c4929b2fd",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-14T23:45:52.579Z",
+        "total_spent": 61397,
+        "created_at": "2023-09-14T17:55:33.497Z",
+        "updated_at": "2023-09-14T11:42:22.197Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "2503a02a-d450-4bd7-867c-373b0dd27213",
+        "client_portfolio": "Client A, Client B",
+        "start_date": "2023-09-14T13:36:00.607Z",
+        "end_date": "2023-09-15T09:59:03.222Z",
+        "created_at": "2023-09-15T11:11:45.266Z",
+        "updated_at": "2023-09-15T04:05:39.853Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d3e99e7-9bfa-42ad-8959-bdef853e1270",
+        "client_portfolio": "Client C, Client D",
+        "start_date": "2023-09-15T11:28:16.541Z",
+        "end_date": "2023-09-15T05:24:10.016Z",
+        "created_at": "2023-09-15T08:41:12.057Z",
+        "updated_at": "2023-09-14T23:23:16.305Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67c6611d-f4b3-40d8-b226-abe81ac41d70",
+        "client_portfolio": "Client E, Client F",
+        "start_date": "2023-09-15T09:17:17.770Z",
+        "end_date": "2023-09-15T00:27:08.665Z",
+        "created_at": "2023-09-14T22:55:12.247Z",
+        "updated_at": "2023-09-14T22:09:44.535Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "434304d9-e876-42a6-9447-00938ee0888d",
+        "client_portfolio": "Client G, Client H",
+        "start_date": "2023-09-15T02:43:20.680Z",
+        "end_date": "2023-09-14T23:30:52.630Z",
+        "created_at": "2023-09-15T11:08:07.455Z",
+        "updated_at": "2023-09-15T09:24:07.894Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "645aa1a9-1d78-4499-b228-841f1e997d1b",
+        "client_portfolio": "Client I, Client J",
+        "start_date": "2023-09-14T21:56:28.504Z",
+        "end_date": "2023-09-15T06:37:44.256Z",
+        "created_at": "2023-09-15T10:13:57.743Z",
+        "updated_at": "2023-09-14T22:40:09.715Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75c991db-f6fe-421a-9efd-77cd290f656a",
+        "email": "Amy8@gmail.com",
+        "firstName": "Celestino",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/405.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "20bb563f-6a29-4515-9b9a-afb4f7fffedd",
+        "email": "Kaitlin_Turcotte37@yahoo.com",
+        "firstName": "Lexi",
+        "lastName": "MacGyver",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dad1f282-6249-4a71-ab23-81f42950fdd3",
+        "email": "Darron92@hotmail.com",
+        "firstName": "Rossie",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71657644",
+        "tenantId": null
+      },
+      {
+        "reference": "597a72a5-9296-4287-a0c0-eba47fb9240f",
+        "email": "Jazmin80@yahoo.com",
+        "firstName": "Linnie",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18981698",
+        "tenantId": null
+      },
+      {
+        "reference": "6d045294-7be9-4efe-8e89-ee2e0b1f840b",
+        "email": "Jeremie53@gmail.com",
+        "firstName": "Lyla",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "5a81fce5-819c-46c4-83d9-a7cd14e86e22",
+        "position": "Software Engineer",
+        "start_date": "2023-09-14T19:29:40.372Z",
+        "end_date": "2023-09-15T09:05:03.815Z",
+        "created_at": "2023-09-14T12:42:17.810Z",
+        "updated_at": "2023-09-15T08:02:00.885Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4da95d2-ea6f-40b0-9dff-f0374a599b06",
+        "position": "Marketing Specialist",
+        "start_date": "2023-09-14T14:40:27.969Z",
+        "end_date": "2023-09-15T02:23:01.860Z",
+        "created_at": "2023-09-14T17:09:34.832Z",
+        "updated_at": "2023-09-14T12:19:15.957Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "656ff013-e9bf-4ba7-9d64-59c21f409f81",
+        "position": "Sales Manager",
+        "start_date": "2023-09-14T13:52:36.257Z",
+        "end_date": "2023-09-15T00:39:06.013Z",
+        "created_at": "2023-09-14T19:00:34.154Z",
+        "updated_at": "2023-09-15T11:42:25.944Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc9873af-bbe7-45a0-8ba6-294dd21a8b89",
+        "position": "HR Coordinator",
+        "start_date": "2023-09-15T09:00:18.860Z",
+        "end_date": "2023-09-14T19:49:04.890Z",
+        "created_at": "2023-09-15T10:12:51.583Z",
+        "updated_at": "2023-09-15T03:05:23.938Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ce4bd2-4c7d-482b-9a7b-7b42e39cc7fc",
+        "position": "Product Designer",
+        "start_date": "2023-09-15T08:27:42.791Z",
+        "end_date": "2023-09-15T09:45:51.625Z",
+        "created_at": "2023-09-15T07:27:51.867Z",
+        "updated_at": "2023-09-15T04:13:03.359Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "23fbae21-8c1f-4ddf-b7a0-41ce7363285b",
+        "support_level": "Gold",
+        "start_date": "2023-09-14T16:56:29.600Z",
+        "end_date": "2023-09-15T09:33:31.271Z",
+        "created_at": "2023-09-14T14:00:53.267Z",
+        "updated_at": "2023-09-14T13:46:48.081Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "332e6819-6ee7-4eef-911c-6da182d90110",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T08:47:28.480Z",
+        "end_date": "2023-09-15T00:44:57.936Z",
+        "created_at": "2023-09-15T07:53:24.666Z",
+        "updated_at": "2023-09-15T05:05:34.080Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "714fff34-7d00-4dc2-bb37-653c830c09c7",
+        "support_level": "Bronze",
+        "start_date": "2023-09-15T07:23:02.340Z",
+        "end_date": "2023-09-15T07:23:19.508Z",
+        "created_at": "2023-09-15T10:48:12.393Z",
+        "updated_at": "2023-09-15T09:57:14.198Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "327bada4-e239-4af3-a1e8-b41df7ca88af",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T06:51:36.646Z",
+        "end_date": "2023-09-15T06:09:05.875Z",
+        "created_at": "2023-09-14T15:22:59.238Z",
+        "updated_at": "2023-09-14T17:58:37.991Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd5db73d-bdb8-4bdb-a2be-36233db51dad",
+        "support_level": "Diamond",
+        "start_date": "2023-09-15T00:36:15.655Z",
+        "end_date": "2023-09-15T11:02:00.145Z",
+        "created_at": "2023-09-14T22:19:19.504Z",
+        "updated_at": "2023-09-14T17:12:04.477Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f815dd4b-01ef-425a-bdd5-5d101eed7c0c",
+        "purchase_history": "Product A, Product B, Product C",
+        "last_purchase_date": "2023-09-14T23:34:24.883Z",
+        "total_spent": 71091,
+        "created_at": "2023-09-14T21:30:14.923Z",
+        "updated_at": "2023-09-15T10:25:30.551Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab39d1ce-3896-4236-ba89-8e36261f76fb",
+        "purchase_history": "Product X, Product Y, Product Z",
+        "last_purchase_date": "2023-09-15T06:12:16.326Z",
+        "total_spent": 1819,
+        "created_at": "2023-09-14T19:07:05.782Z",
+        "updated_at": "2023-09-14T17:45:45.106Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96069511-1d51-4b0f-9d6d-02c582cc62ba",
+        "purchase_history": "Product M, Product N, Product O",
+        "last_purchase_date": "2023-09-14T11:52:02.563Z",
+        "total_spent": 17513,
+        "created_at": "2023-09-15T04:04:05.265Z",
+        "updated_at": "2023-09-14T21:36:26.062Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ce84294-8482-49a1-a195-2e17985f8ffc",
+        "purchase_history": "Product P, Product Q, Product R",
+        "last_purchase_date": "2023-09-14T17:55:19.392Z",
+        "total_spent": 86900,
+        "created_at": "2023-09-14T21:15:39.999Z",
+        "updated_at": "2023-09-15T01:49:37.067Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08a68884-ab5d-456e-a2d0-0b96cf0f0321",
+        "purchase_history": "Product D, Product E, Product F",
+        "last_purchase_date": "2023-09-15T01:33:22.174Z",
+        "total_spent": 9846,
+        "created_at": "2023-09-15T09:22:01.269Z",
+        "updated_at": "2023-09-15T02:13:26.690Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "49afb275-1d82-46f0-af31-233a72bb6660",
+        "client_portfolio": "Client A, Client B, Client C",
+        "start_date": "2023-09-14T21:08:19.722Z",
+        "end_date": "2023-09-15T05:42:16.964Z",
+        "created_at": "2023-09-14T17:47:46.885Z",
+        "updated_at": "2023-09-15T09:57:05.234Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb979c2a-0e09-4192-97dc-170fbadfb9d0",
+        "client_portfolio": "Client X, Client Y, Client Z",
+        "start_date": "2023-09-14T20:26:00.955Z",
+        "end_date": "2023-09-14T12:04:57.273Z",
+        "created_at": "2023-09-15T10:54:57.702Z",
+        "updated_at": "2023-09-14T16:51:55.266Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2934e963-8780-4be8-959c-c60bfa89ee29",
+        "client_portfolio": "Client M, Client N, Client O",
+        "start_date": "2023-09-14T23:37:43.019Z",
+        "end_date": "2023-09-15T00:55:32.470Z",
+        "created_at": "2023-09-15T01:52:48.758Z",
+        "updated_at": "2023-09-15T04:53:28.378Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac5cacfe-277c-4774-a260-713e78358134",
+        "client_portfolio": "Client P, Client Q, Client R",
+        "start_date": "2023-09-14T17:34:18.024Z",
+        "end_date": "2023-09-14T18:51:43.282Z",
+        "created_at": "2023-09-14T20:38:22.186Z",
+        "updated_at": "2023-09-15T08:06:10.424Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd6795c5-b64c-4445-8a70-ff38d34e642d",
+        "client_portfolio": "Client D, Client E, Client F",
+        "start_date": "2023-09-14T20:30:39.291Z",
+        "end_date": "2023-09-15T07:53:45.921Z",
+        "created_at": "2023-09-15T08:39:22.503Z",
+        "updated_at": "2023-09-14T13:18:11.740Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f352f7b-f0ad-4b95-af87-0013f552429b",
+        "email": "Tiana87@hotmail.com",
+        "firstName": "Frederick",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5332188",
+        "tenantId": null
+      },
+      {
+        "reference": "1ca7849c-0665-465c-9a73-0e060aa9b5f4",
+        "email": "Jennyfer_Mosciski@yahoo.com",
+        "firstName": "Nyah",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4767485",
+        "tenantId": null
+      },
+      {
+        "reference": "dc472499-64c9-470c-a480-d2ea5fc620e5",
+        "email": "Joannie.VonRueden@gmail.com",
+        "firstName": "Cassie",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b5a0c7e0-ecba-4899-9358-4c634b9d3c2e",
+        "email": "Mariam_Howell70@hotmail.com",
+        "firstName": "Rickie",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/489.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5316a4b6-f5c0-4065-836d-809692769768",
+        "email": "Isai_Leffler@hotmail.com",
+        "firstName": "Telly",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3710583",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "78e9fe5f-368f-4fec-9d28-8e9f2ef57494",
+        "position": "Manager",
+        "start_date": "2023-09-14T16:46:33.609Z",
+        "end_date": "2023-09-15T00:37:45.279Z",
+        "created_at": "2023-09-15T06:02:08.641Z",
+        "updated_at": "2023-09-14T12:38:50.609Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6650deff-ea19-4918-8eee-1722779d5b63",
+        "position": "Developer",
+        "start_date": "2023-09-14T15:44:42.289Z",
+        "end_date": "2023-09-15T02:28:47.241Z",
+        "created_at": "2023-09-14T18:41:56.165Z",
+        "updated_at": "2023-09-15T00:00:13.309Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e36fedbf-3f5f-4d2e-8155-afc2d631ef01",
+        "position": "Designer",
+        "start_date": "2023-09-15T07:45:43.802Z",
+        "end_date": "2023-09-15T00:04:12.956Z",
+        "created_at": "2023-09-15T02:59:35.510Z",
+        "updated_at": "2023-09-15T11:15:12.866Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f941a0-586c-4a52-92ac-9ada8a10922e",
+        "position": "Analyst",
+        "start_date": "2023-09-15T10:14:07.326Z",
+        "end_date": "2023-09-14T12:34:29.893Z",
+        "created_at": "2023-09-14T23:31:07.666Z",
+        "updated_at": "2023-09-15T01:16:07.451Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70766f67-c1fa-400c-932e-50b19f77b336",
+        "position": "Coordinator",
+        "start_date": "2023-09-15T06:20:28.730Z",
+        "end_date": "2023-09-15T02:07:39.658Z",
+        "created_at": "2023-09-14T12:45:13.243Z",
+        "updated_at": "2023-09-15T02:41:37.875Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "8d3da35e-d1df-40c2-a1e3-dadb0a033309",
+        "support_level": "Gold",
+        "start_date": "2023-09-15T11:34:31.498Z",
+        "end_date": "2023-09-15T06:14:47.970Z",
+        "created_at": "2023-09-14T20:17:33.969Z",
+        "updated_at": "2023-09-14T18:32:16.761Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f57f0f9c-893a-4053-83b5-960a397ff945",
+        "support_level": "Silver",
+        "start_date": "2023-09-14T18:49:34.979Z",
+        "end_date": "2023-09-15T08:55:01.526Z",
+        "created_at": "2023-09-15T10:45:15.499Z",
+        "updated_at": "2023-09-14T15:06:26.278Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bc4f7aa-5b92-438c-a575-0b15ab28c18e",
+        "support_level": "Bronze",
+        "start_date": "2023-09-14T15:01:34.658Z",
+        "end_date": "2023-09-15T06:34:06.883Z",
+        "created_at": "2023-09-15T10:06:39.933Z",
+        "updated_at": "2023-09-14T18:31:51.931Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd1b2e4b-9793-4510-8d88-32b63b7d9743",
+        "support_level": "Platinum",
+        "start_date": "2023-09-15T10:59:20.789Z",
+        "end_date": "2023-09-14T19:48:46.284Z",
+        "created_at": "2023-09-14T20:35:18.565Z",
+        "updated_at": "2023-09-15T00:20:43.029Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88d6865f-8686-447b-b43e-a8b49f194b1d",
+        "support_level": "Standard",
+        "start_date": "2023-09-14T12:56:04.650Z",
+        "end_date": "2023-09-15T10:41:57.268Z",
+        "created_at": "2023-09-15T05:03:14.654Z",
+        "updated_at": "2023-09-15T03:19:16.974Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a86c9f20-f0ba-4bb3-a784-afe6f9d05ac6",
+        "purchase_history": "Purchased item A on 2021-01-01",
+        "last_purchase_date": "2023-09-14T16:08:51.751Z",
+        "total_spent": 29718,
+        "created_at": "2023-09-15T08:16:22.995Z",
+        "updated_at": "2023-09-15T06:50:36.978Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0318ec6a-dc03-42a3-af5b-c54d049b40a1",
+        "purchase_history": "Purchased item B on 2021-02-15",
+        "last_purchase_date": "2023-09-14T16:45:51.005Z",
+        "total_spent": 65464,
+        "created_at": "2023-09-14T13:47:47.402Z",
+        "updated_at": "2023-09-14T21:56:50.241Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9782197-0199-4d7d-a189-373b1987f8a2",
+        "purchase_history": "Purchased item C on 2021-03-10",
+        "last_purchase_date": "2023-09-14T18:35:18.106Z",
+        "total_spent": 4500,
+        "created_at": "2023-09-14T19:08:32.571Z",
+        "updated_at": "2023-09-14T15:47:48.878Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40ddbf17-fc92-4b49-a0d9-3f952f6dd18c",
+        "purchase_history": "Purchased item D on 2021-04-20",
+        "last_purchase_date": "2023-09-14T22:10:00.687Z",
+        "total_spent": 64150,
+        "created_at": "2023-09-15T03:15:37.581Z",
+        "updated_at": "2023-09-15T10:43:48.168Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d142d55-f9e5-43d1-b5b6-2d9fdd90f0e6",
+        "purchase_history": "Purchased item E on 2021-05-05",
+        "last_purchase_date": "2023-09-14T21:18:09.240Z",
+        "total_spent": 79504,
+        "created_at": "2023-09-14T23:27:27.092Z",
+        "updated_at": "2023-09-14T13:53:27.992Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "3bb8813e-8a5e-4fce-a55f-68278676a089",
+        "client_portfolio": "Client A",
+        "start_date": "2023-09-15T06:40:18.972Z",
+        "end_date": "2023-09-14T21:27:08.683Z",
+        "created_at": "2023-09-14T18:02:50.031Z",
+        "updated_at": "2023-09-14T15:54:36.390Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35b89d33-7aed-4b18-a021-9d4e5a58141b",
+        "client_portfolio": "Client B",
+        "start_date": "2023-09-15T09:40:56.600Z",
+        "end_date": "2023-09-15T02:53:45.924Z",
+        "created_at": "2023-09-14T13:05:52.460Z",
+        "updated_at": "2023-09-14T23:51:09.691Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86b32926-2239-421c-83c7-54012ca03a0e",
+        "client_portfolio": "Client C",
+        "start_date": "2023-09-15T10:06:38.136Z",
+        "end_date": "2023-09-14T19:27:11.162Z",
+        "created_at": "2023-09-15T06:45:03.576Z",
+        "updated_at": "2023-09-14T16:17:46.440Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9680e9f-952c-47d2-80d3-a6537d98d638",
+        "client_portfolio": "Client D",
+        "start_date": "2023-09-14T16:01:49.286Z",
+        "end_date": "2023-09-15T11:12:13.344Z",
+        "created_at": "2023-09-15T05:28:44.388Z",
+        "updated_at": "2023-09-15T02:46:54.447Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fae888ef-67e2-4797-af9b-39e0438fb25a",
+        "client_portfolio": "Client E",
+        "start_date": "2023-09-15T08:23:21.130Z",
+        "end_date": "2023-09-15T04:34:13.895Z",
+        "created_at": "2023-09-15T01:37:10.143Z",
+        "updated_at": "2023-09-14T16:06:34.046Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0fe4412a-1534-4db1-ab56-b0b689080ba1",
+        "email": "Frida22@yahoo.com",
+        "firstName": "Domenic",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50984805",
+        "tenantId": null
+      },
+      {
+        "reference": "315ff031-56c6-4d89-9781-6f10a08f8959",
+        "email": "Charlene44@hotmail.com",
+        "firstName": "Abby",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76459991",
+        "tenantId": null
+      },
+      {
+        "reference": "7d7f4030-cc02-4d1c-9c37-f5a5d2c5ad6b",
+        "email": "Andres83@hotmail.com",
+        "firstName": "Clark",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83810782",
+        "tenantId": null
+      },
+      {
+        "reference": "48b40e14-e2e5-4f9b-b41e-75b459e91c0b",
+        "email": "Gunner.Jaskolski@hotmail.com",
+        "firstName": "Royce",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "38f90165-20ef-4a33-a172-3ef3c398a946",
+        "email": "Cleta.Veum8@yahoo.com",
+        "firstName": "Monte",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16613655",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team_member": [
+      {
+        "id": "bdf2ad9b-6dc1-45cc-9181-72b21dbb5eb1",
+        "position": "Manager",
+        "start_date": "2023-09-14T12:21:49.041Z",
+        "end_date": "2023-09-14T23:24:10.830Z",
+        "created_at": "2023-09-15T03:46:55.129Z",
+        "updated_at": "2023-09-15T00:30:54.348Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bac91485-0440-484b-80f9-d63a2c70ac1f",
+        "position": "Developer",
+        "start_date": "2023-09-14T17:04:57.712Z",
+        "end_date": "2023-09-15T00:36:47.581Z",
+        "created_at": "2023-09-15T11:42:17.194Z",
+        "updated_at": "2023-09-14T12:26:31.382Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d46cda36-2413-49e3-add9-b7161a04982f",
+        "position": "Designer",
+        "start_date": "2023-09-15T02:39:33.103Z",
+        "end_date": "2023-09-15T02:36:00.348Z",
+        "created_at": "2023-09-15T02:28:03.239Z",
+        "updated_at": "2023-09-14T15:08:13.286Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecc25fea-8e2a-40f2-8b76-b353e9c82714",
+        "position": "Analyst",
+        "start_date": "2023-09-15T00:50:12.012Z",
+        "end_date": "2023-09-14T20:09:22.737Z",
+        "created_at": "2023-09-15T07:37:41.361Z",
+        "updated_at": "2023-09-15T02:50:23.887Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "474d587c-52c1-4b60-9ffd-937d7130c1f8",
+        "position": "Coordinator",
+        "start_date": "2023-09-15T07:37:39.919Z",
+        "end_date": "2023-09-15T11:00:30.668Z",
+        "created_at": "2023-09-14T21:15:32.742Z",
+        "updated_at": "2023-09-15T00:02:30.192Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_support": [
+      {
+        "id": "39f380e4-1c5e-4c57-b689-36f88f90c2f6",
+        "support_level": "Gold",
+        "start_date": "2023-09-14T22:03:05.596Z",
+        "end_date": "2023-09-14T17:49:08.882Z",
+        "created_at": "2023-09-14T18:16:51.423Z",
+        "updated_at": "2023-09-14T15:40:06.584Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5136123-ed70-4c4c-afba-34d849157d20",
+        "support_level": "Silver",
+        "start_date": "2023-09-15T10:54:05.206Z",
+        "end_date": "2023-09-14T15:01:18.483Z",
+        "created_at": "2023-09-14T13:09:41.228Z",
+        "updated_at": "2023-09-15T10:30:00.465Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c09c262a-c976-4243-9a58-de7a3a817419",
+        "support_level": "Bronze",
+        "start_date": "2023-09-14T20:01:52.210Z",
+        "end_date": "2023-09-14T21:47:37.465Z",
+        "created_at": "2023-09-14T22:07:19.512Z",
+        "updated_at": "2023-09-15T11:39:09.201Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d9f3fab-ce7b-47b0-9b51-4b71ee030e34",
+        "support_level": "Platinum",
+        "start_date": "2023-09-14T12:16:43.690Z",
+        "end_date": "2023-09-15T06:26:05.099Z",
+        "created_at": "2023-09-14T12:20:08.845Z",
+        "updated_at": "2023-09-15T10:38:22.925Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73203a4e-3227-4bc6-92c1-0ed85320a01b",
+        "support_level": "Diamond",
+        "start_date": "2023-09-15T04:22:45.803Z",
+        "end_date": "2023-09-14T19:24:16.795Z",
+        "created_at": "2023-09-15T02:19:05.089Z",
+        "updated_at": "2023-09-15T02:04:00.124Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer": [
+      {
+        "id": "c1b7e0e5-e414-4ca7-bc79-adcf5c651b12",
+        "purchase_history": "Product A, Product B",
+        "last_purchase_date": "2023-09-15T01:26:53.484Z",
+        "total_spent": 94662,
+        "created_at": "2023-09-15T05:22:11.800Z",
+        "updated_at": "2023-09-15T08:15:38.464Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988f2a67-a2ae-49e8-83c4-839c863f6d7e",
+        "purchase_history": "Product C, Product D",
+        "last_purchase_date": "2023-09-15T03:13:11.336Z",
+        "total_spent": 64499,
+        "created_at": "2023-09-15T10:30:19.339Z",
+        "updated_at": "2023-09-15T01:03:38.934Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff996b9b-f782-4b3f-ad8d-584991742ba6",
+        "purchase_history": "Product E, Product F",
+        "last_purchase_date": "2023-09-14T21:53:00.228Z",
+        "total_spent": 99163,
+        "created_at": "2023-09-15T08:20:04.986Z",
+        "updated_at": "2023-09-14T21:09:05.113Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3110932-467b-4583-934f-16a8f55dfe8e",
+        "purchase_history": "Product G, Product H",
+        "last_purchase_date": "2023-09-15T00:37:38.693Z",
+        "total_spent": 3406,
+        "created_at": "2023-09-15T05:36:16.837Z",
+        "updated_at": "2023-09-15T06:20:17.574Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "444c8398-0be4-4def-b122-94e78faa7170",
+        "purchase_history": "Product I, Product J",
+        "last_purchase_date": "2023-09-15T06:19:59.659Z",
+        "total_spent": 14390,
+        "created_at": "2023-09-15T10:55:49.664Z",
+        "updated_at": "2023-09-15T07:40:07.959Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "client_manager": [
+      {
+        "id": "1a462eee-121a-44ae-a6bf-541f2e790542",
+        "client_portfolio": "Client A, Client B",
+        "start_date": "2023-09-14T19:55:25.229Z",
+        "end_date": "2023-09-14T12:36:53.791Z",
+        "created_at": "2023-09-14T20:05:12.950Z",
+        "updated_at": "2023-09-14T22:30:43.005Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ca4963-d353-49b9-bd1f-728254d41b2a",
+        "client_portfolio": "Client C, Client D",
+        "start_date": "2023-09-14T14:56:35.432Z",
+        "end_date": "2023-09-14T16:32:37.092Z",
+        "created_at": "2023-09-14T18:45:38.576Z",
+        "updated_at": "2023-09-14T16:43:51.030Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6344d94-ceba-4d5a-a8ff-ec55af5b828e",
+        "client_portfolio": "Client E, Client F",
+        "start_date": "2023-09-15T09:52:48.774Z",
+        "end_date": "2023-09-15T05:55:00.420Z",
+        "created_at": "2023-09-14T20:46:12.905Z",
+        "updated_at": "2023-09-15T09:15:44.229Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9760219-c00e-469e-9d57-e613f83ced4f",
+        "client_portfolio": "Client G, Client H",
+        "start_date": "2023-09-15T05:20:14.022Z",
+        "end_date": "2023-09-14T21:35:23.182Z",
+        "created_at": "2023-09-14T11:55:17.313Z",
+        "updated_at": "2023-09-15T08:59:30.625Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1bc8052-dc77-41fc-9e82-650d726e01f3",
+        "client_portfolio": "Client I, Client J",
+        "start_date": "2023-09-15T11:02:15.603Z",
+        "end_date": "2023-09-14T20:22:57.664Z",
+        "created_at": "2023-09-14T15:55:42.515Z",
+        "updated_at": "2023-09-14T13:49:29.473Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ecc4fc47-3278-4cd0-a95a-d9d73fc03fde",
+        "email": "Millie_Bradtke@gmail.com",
+        "firstName": "Clarissa",
+        "lastName": "Wuckert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/234965",
+        "tenantId": null
+      },
+      {
+        "reference": "03d8b94a-07d3-4146-b15e-b28fccfc502e",
+        "email": "Buddy_Denesik93@gmail.com",
+        "firstName": "Ned",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/418.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "473eb8bf-c823-4ae1-a6ef-45230d67c7f4",
+        "email": "Suzanne_Kirlin@yahoo.com",
+        "firstName": "Toney",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b28be5c-c20a-4387-8460-660658f7a8d2",
+        "email": "Elroy.Harber72@hotmail.com",
+        "firstName": "Blanca",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82498748",
+        "tenantId": null
+      },
+      {
+        "reference": "2f0b5afb-5a70-4f16-a7e6-51350e79fa2b",
+        "email": "Sheldon_OConner-Klein@yahoo.com",
+        "firstName": "Jevon",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
